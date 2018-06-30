@@ -1,0 +1,32 @@
+{
+  "name": "graphql-test",
+  "version": "0.0.1",
+  "description": "graphql test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajhi/graphql-test.git"
+  },
+  "keywords": [
+    "graphql",
+    "test"
+  ],
+  "author": "Niraj Hirachan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirajhi/graphql-test/issues"
+  },
+  "homepage": "https://github.com/nirajhi/graphql-test#readme",
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graph": "^0.2.0",
+    "graphql": "^0.13.2",
+    "ql": "^0.1.5"
+  }
+}
